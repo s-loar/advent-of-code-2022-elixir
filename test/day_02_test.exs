@@ -5,6 +5,12 @@ defmodule Day02Test do
   test "part_1" do
     result = Day02.part_1
 
-    assert result == 15
+    assert result == 17189
+  end
+
+  test "part_2" do
+    result = Day02.part_2
+
+    assert result == 13490
   end
 end
