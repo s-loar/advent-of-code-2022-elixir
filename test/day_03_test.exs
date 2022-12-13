@@ -7,4 +7,10 @@ defmodule Day03Test do
 
     assert result == 8401
   end
+
+  test "part_2" do
+    result = Day03.part_2
+
+    assert result == 2641
+  end
 end
